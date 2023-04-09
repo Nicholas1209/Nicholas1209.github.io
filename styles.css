@@ -21,6 +21,13 @@
 	background: #eff4fd;
 }
 
+.hero3{
+	position: absolute;
+	width: 100vw;
+	height: 200vh;
+	background: #eff4fd;
+}
+
 nav{
 	display: flex;
 	width: 84%;
