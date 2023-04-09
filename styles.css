@@ -223,7 +223,7 @@ nav ul li a:hover{
 .germany{
 	height: 60%;
 	position: absolute;
-	left: 30%;
+	left: 10%;
 	top: 10%;
 	transform: translateX(-50%);
 	transition: left 1s;
@@ -232,7 +232,7 @@ nav ul li a:hover{
 .china{
 	height: 60%;
 	position: absolute;
-	left: 50%;
+	left: 30%;
 	top: -5%;
 	transform: translateX(-50%);
 	transition: top 1s;
@@ -241,7 +241,7 @@ nav ul li a:hover{
 .images2:hover .germany{
 	transform: translateX(-50%);
 	transition: left 1s ease;
-	left: 20%;
+	left: 0%;
 }
 
 .images2:hover .china{
