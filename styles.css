@@ -9,7 +9,7 @@
 
 .hero{
 	position: absolute;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	background: #eff4fd;
 }
@@ -209,7 +209,7 @@ nav ul li a:hover{
 .germany{
 	height: 60%;
 	position: absolute;
-	left: 45%;
+	left: 30%;
 	top: 10%;
 	transform: translateX(-50%);
 	transition: left 1s;
@@ -218,7 +218,7 @@ nav ul li a:hover{
 .china{
 	height: 60%;
 	position: absolute;
-	left: 65%;
+	left: 50%;
 	top: -5%;
 	transform: translateX(-50%);
 	transition: top 1s;
@@ -227,7 +227,7 @@ nav ul li a:hover{
 .images2:hover .germany{
 	transform: translateX(-50%);
 	transition: left 1s ease;
-	left: 35%;
+	left: 20%;
 }
 
 .images2:hover .china{
@@ -241,7 +241,7 @@ nav ul li a:hover{
 	line-height: 22px;
 	text-align: justify;
 	margin-right: -100%;
-	margin-top: -5%;
+	margin-top: -4%;
 }
 
 .black{
