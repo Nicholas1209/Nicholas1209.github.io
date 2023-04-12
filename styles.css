@@ -41,6 +41,7 @@ nav ul li{
 	display: inline-block;
 	list-style: none;
 	margin: 10px 20px;
+	position: relative;
 }
 
 nav ul li a{
@@ -53,6 +54,27 @@ nav ul li a:hover{
 	color: red;
 	text-decoration: underline;
 	transform: scale(1.1);
+}
+
+nav ul li ul.dropdown li{
+	display: block;
+	width: max-content;
+}
+
+nav ul li ul.dropdown{
+	width: 100%;
+	background: #b0bfd0;
+	position: absolute;
+	z-index: 999;
+	display: none;
+	white-space: nowrap; /* Prevent text from wrapping */
+	min-width: 100%; /* Set minimum width to prevent overlap */
+	left: 0; /* Align dropdown with left edge of parent li */
+	top: 100%;
+}
+
+nav ul li:hover ul.dropdown{
+	display: block;
 }
 
 .detel{
@@ -223,7 +245,7 @@ nav ul li a:hover{
 .germany{
 	height: 60%;
 	position: absolute;
-	left: 10%;
+	left: 30%;
 	top: 10%;
 	transform: translateX(-50%);
 	transition: left 1s;
@@ -232,7 +254,7 @@ nav ul li a:hover{
 .china{
 	height: 60%;
 	position: absolute;
-	left: 30%;
+	left: 50%;
 	top: -5%;
 	transform: translateX(-50%);
 	transition: top 1s;
@@ -241,7 +263,7 @@ nav ul li a:hover{
 .images2:hover .germany{
 	transform: translateX(-50%);
 	transition: left 1s ease;
-	left: 0%;
+	left: 20%;
 }
 
 .images2:hover .china{
