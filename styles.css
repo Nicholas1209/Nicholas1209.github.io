@@ -71,6 +71,18 @@ nav ul li ul.dropdown{
 	min-width: 100%; /* Set minimum width to prevent overlap */
 	left: 0; /* Align dropdown with left edge of parent li */
 	top: 100%;
+	animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 nav ul li:hover ul.dropdown{
