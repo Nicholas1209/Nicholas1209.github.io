@@ -58,7 +58,6 @@ nav ul li a:hover{
 
 nav ul li ul.dropdown li{
 	display: block;
-	width: max-content;
 }
 
 nav ul li ul.dropdown{
@@ -68,6 +67,7 @@ nav ul li ul.dropdown{
 	z-index: 999;
 	display: none;
 	min-width: 100%; /* Set minimum width to prevent overlap */
+	white-space: nowrap;
 	top: 100%;
 	animation: slideDown 0.3s ease-out;
 }
