@@ -67,9 +67,7 @@ nav ul li ul.dropdown{
 	position: absolute;
 	z-index: 999;
 	display: none;
-	white-space: nowrap; /* Prevent text from wrapping */
 	min-width: 100%; /* Set minimum width to prevent overlap */
-	left: 0; /* Align dropdown with left edge of parent li */
 	top: 100%;
 	animation: slideDown 0.3s ease-out;
 }
